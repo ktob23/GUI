@@ -24,5 +24,6 @@ public class Main {
     
   public static void main(String[] args) {
     Rubiks.main(args);
+    System.out.println("New commit");
   }
 }
