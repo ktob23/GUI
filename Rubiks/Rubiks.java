@@ -1,3 +1,4 @@
+package Rubiks;
 import javax.swing.*;    // For JFrame and JPanel
 import java.awt.*;       // For Color, Container, and GridLayout
 public class Rubiks{
