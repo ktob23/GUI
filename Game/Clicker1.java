@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.util.Random;
  
 public class Clicker1{
-   //Instance variables  for Main class 
+   //Instance variables for Main clas 
  
    private JButton button;
    private JLabel scoreLabel;
