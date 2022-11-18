@@ -6,7 +6,7 @@ public class Computer {
        double bDoub;
        System.out.println("Part 1");
        bDoub = 5/2;
-       aInt = (int) 3.2;
+       aInt = (int)3.2;
        cInt = (int) 3.9;
       
        System.out.println("aInt = " + aInt);

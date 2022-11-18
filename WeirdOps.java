@@ -40,7 +40,10 @@ public class WeirdOps {
              	           + "   y = " + y);
  	// Part 3 code goes here
 
-    
+    final int C=20;
+    System.out.println("10. C = " + C);
+    //C = 99;
+    System.out.println("11. C = " + C);
          
    } // end main
 
