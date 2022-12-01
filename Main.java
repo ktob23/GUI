@@ -1,17 +1,10 @@
-import Rubiks.Rubiks;
-import Game.Clicker1;
-import PaintApp.ColorText;
-
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-
-public class Main {
+class Main {
   public static void main(String[] args) {
-    //Rubiks.main(args);
-    //Clicker1.main(args);
-    //new Clicker1();
-
-    new ColorText();
+    Card card = new Card();
+    Card card2 = new Card(10, "Spades");
+    
+    System.out.println(card);
+    System.out.println(card2);
+    System.out.println(card2.compareTo());
   }
 }
