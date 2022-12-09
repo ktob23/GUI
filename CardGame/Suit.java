@@ -1,6 +1,7 @@
+package CardGame;
 public enum Suit {
-    HEARTS("Hearts"), SPADES("Spades"), DIAMONDS("Diamonds"), CLUBS("Clubs");
-}
+    HEARTS("\u2665"), SPADES("\u2660"), DIAMONDS("\u2666"), CLUBS("\u2663");
+
 
 private final String suitText;
 
@@ -12,4 +13,5 @@ private Suit(String suitText) {
 // Public Method
 public String printSuit() {
     return suitText;
+}
 }

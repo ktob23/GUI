@@ -4,6 +4,7 @@ public class Card {
     private Rank rank;
     private Suit suit;
     private boolean isfaceup;
+    private static int CARDWIDTH = 30, CARDHEIGHT = 30;
 
     public Card() {
     }
@@ -19,24 +20,28 @@ public class Card {
     }
 
     public int getRank() {
-        return rank;
+        return rank.getRank();
     }
 
     public String getSuit() {
-        return suit;
+        return suit.printSuit();
     }
 
     public String toString() {
-        return "Suit: " + suit + "\nRank: " + rank;
-    }
-
-    public String toString() {
-        string str = "";
+        String str = "";
         
         if (isfaceup) {
-            str += rank.getValue() + " of " + suit.printSuit();
+            str += rank.getRank() + " of " + suit.printSuit();
         }
         
         return str;
+    }
+
+    public static int getCardWidth() {
+        return CARDWIDTH;
+    }
+    
+    public static int getCardHeight() {
+        return CARDHEIGHT;
     }
 }
